@@ -1,0 +1,44 @@
+﻿@charset "utf-8";
+body{font-family:Verdana, Geneva, sans-serif; height:100%; padding:0; margin:auto; font-size:100%;}
+.header{text-align:center; background:#fff !important; border:none !important; padding:10px 0;}
+.slogan{background:#ba5f28; color:#FFF; text-align:center; text-transform:uppercase; font-size:100%; letter-spacing:2px; font-weight:bold; vertical-align:middle; padding:10px 0; margin-bottom:10px;}
+.navBack{ background:url(../images/Back.png); display:inline-block; height:65px; width:73px; float:left; }
+.logo{ background:url(../images/logo.png) 30px 20px no-repeat; display:inline-block; height:60px; width:75px; margin:auto;}
+.logo a{display:inline-block; height:65px; width:73px; float:left; }
+.search{ display:inline-block; height:65px; width:73px; float:right;}
+.more{ background:url(../images/more.png); display:inline-block; height:65px; width:30px; float:right;}
+.navList{ background:#414143; padding:10px 0; position:absolute; top:0; display:block; width:40%; z-index:1000;}
+.navList .list{ margin:0; padding:0; list-style:none;}
+.navList .list li{ border-bottom:#515254 solid 1px; }
+.navList .list li a{ text-decoration:none; color:#FFF; display:block; font-size:16px; font-weight:bold; padding:10px; background:url(../images/DownArrow.png) no-repeat 95%;}
+.sprit{background-repeat: no-repeat; }
+.clients {
+	display:block;
+	width:100%;
+	
+}
+.clients figure img{
+	
+	width:198px;
+
+}
+.clients figure
+{	
+	display:inline-block;
+	float:left;
+	border:1px solid #333;
+	width:200px;
+	height:70px;
+	padding:5px;
+}
+.adTbl{
+	border:1px solid #333;
+	border-collapse:collapse;
+	
+	
+}
+.adTbl td, .adTbl th{
+	padding:5px;
+		border:1px solid #333;
+	text-align:left;
+}

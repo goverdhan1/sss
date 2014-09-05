@@ -1,0 +1,3 @@
+# Module sss
+# RPC service class, partial path of RPC policy file
+sss.client.GreetingService, C4BFFD0BD5B02D58AB4E86A48FA2E54D.gwt.rpc

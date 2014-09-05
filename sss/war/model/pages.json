@@ -1,0 +1,14 @@
+pages=[
+{"pageId":"0", "pageTitle":"Home", "content":[{"section":{"h2":"", "p":"", "img":{"url":"", "caption":"", "align":"left"}},
+{"section":{"h2":"", "p":"", "img":{"url":"", "caption":""}}
+]}, 
+{"pageId":"1", "pageTitle":"About SSS", "content":""},
+{"pageId":"2", "pageTitle":"Expertise", "content":""},
+{"pageId":"3", "pageTitle":"Services", "content":""},
+{"pageId":"4", "pageTitle":"News & Events", "content":""},
+{"pageId":"5", "pageTitle":"Our Ideas", "content":""},
+{"pageId":"6", "pageTitle":"Solutions", "content":""},
+{"pageId":"7", "pageTitle":"Collaboration", "content":""},
+{"pageId":"8", "pageTitle":"Platform", "content":""}
+{"pageId":"8", "pageTitle":"Contact Us", "content":""}
+];
