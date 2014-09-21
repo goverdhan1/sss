@@ -1,0 +1,12 @@
+config={
+"companyName":"Sharda Software Solution", 
+"slogan":"",
+"baseURL":"http://www.shardasoftwaresol.appspot.com", 
+"websiteLogoURL":"",
+"mobileLogoURL":"",
+"address":{"address1":"14-2-64, Goshamhal Chandanwadi", "address2":"", "city":"Hyderabad", "state":"Andhra Pradesh", "country":"India", "zip":"500012"},
+"phone":"9885514982",
+"mobile":"9885514982",
+"email":"goverdhan.k@gmail.com"
+"copyrights":"Copyright © 2014 Sharda Software Solutions, Inc. All Rights Reserved"
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/jquery.mobile-1.4.1.min.css">
+<link href="../css/style.css" type="text/css" rel="stylesheet">
+<script src="../js/jquery.min.js"></script>
+<script src="../js/angular.min.js"></script>
+
+
+
+<script src="../js/jquery.mobile-1.4.1.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK REL="SHORTCUT ICON" HREF="../fav.ico">
+<title>UI Architecture</title>
+</head>
+<body>
+
+<section data-role="page" id="homePage">
+<header data-role="header" class="header" data-position="fixed">
+<div class="navBack" id="navBarBtn"></div>
+<div class="logo"><a href="#homePage"></a></div>
+<div class="more"></div>
+<div class="search"></div>
+<section class="slogan">Koyalkar Goverdhan Chowdhary</section>
+</header>
+
+<section data-role="content">
+Sharda Software Solutions (SSS) is a mobile, cloud and big data insights solution provider with a global presence in India and the US. A Venture Capital firm focusing in mobile and cloud, we work with Fortune 500 companies across multiple industries as well as innovative product companies in the mobile and cloud computing areas. Our projects include development and testing efforts for the largest software companies in the world, major wireless operators, global mobile manufacturers and enterprise security product companies. Our teams have also worked closely with large enterprises as well as start-ups in helping them define and execute on their mobile strategy
+</section>
+</section>
+<section id="contact" data-role="page">
+        <header data-role="header" class="header">
+<div class="navBack" id="Div2"></div>
+
+<div class="logo"><a href="#homePage"></a></div>
+<div class="more"></div>
+<div class="search"></div>
+<section class="slogan">Sharda Software Solution</section>
+</header>
+       
+        <section data-role="content">
+         <h2>Contact Us</h2>
+        <div>
+            SSS welcomes the opportunity to share our mobile insights and the latest trends in the space. Whether you would like to learn more about the company’s latest announcements or how to join our rockstar team, we invite you to connect with us.
+        </div>
+        <aside>
+        <p>India Office</p>
+        <p>
+		14-2-64, <br /> 
+		Hyderabad, <br /> 
+		Andhra Pradesh, India <br />
+		Pin: 500012<br />
+		T: 0091-9885514982<br />
+        </p>
+        <div>
+        </div>
+        </aside>
+        
+        <aside>
+        <p>US Office</p>
+        <p>
+        195th Street<br />
+        Bothell, WA 98011<br />
+        T: 001-425-270-5178<br />
+        E: info@shardasoftware.com<br />
+        </p>
+        <div>
+        </div>
+        </aside>
+        </section>
+     </section>
+
+<nav class="navList" id="navToolbar" data-rel="dialog" style="display:none;">
+<ul class="list">
+<li class=""><a href="#homePage">Home</a></li>
+<li class="sprit"><a href="#contact">Contact Us</a></li>
+</ul>
+</nav> 
+<script>
+
+$(document).on('pagechange', function(){ 
+// this fires for each new page
+$("#navToolbar").hide();
+//  $("#"+$.mobile.activePage.attr("id")).animate({left: "0"}, { duration: 300, queue: false });
+});
+
+$(".navBack").on('click', function(){
+	$("#navToolbar").show();
+//	$("#"+$.mobile.activePage.attr("id")).animate({left: "60%"}, { duration: 300, queue: false });
+});
+</script>
+</body>
+</html>

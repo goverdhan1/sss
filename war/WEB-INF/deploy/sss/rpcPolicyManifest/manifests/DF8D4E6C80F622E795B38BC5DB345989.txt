@@ -1,0 +1,2 @@
+serviceClass: sss.client.GreetingService
+path: C4BFFD0BD5B02D58AB4E86A48FA2E54D.gwt.rpc
